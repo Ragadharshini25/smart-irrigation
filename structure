@@ -1,0 +1,43 @@
+# Smart Irrigation System using Arduino
+
+A complete automated irrigation system that monitors soil moisture and controls watering based on real-time sensor data. This project uses Arduino microcontroller to manage an efficient, water-saving irrigation solution for gardens, farms, and indoor plants.
+
+
+## 🎯 Project Overview
+
+The Smart Irrigation System automates the watering process by monitoring soil moisture levels. When moisture drops below a threshold, the system automatically activates a water pump. This ensures optimal watering, prevents overwatering, and reduces water wastage while keeping your plants healthy.
+
+## ✨ Features
+
+- **Automatic Watering**: Triggers pump when soil moisture is too low
+- **Real-time Monitoring**: Continuous soil moisture level tracking
+- **Manual Override**: Option to manually control the pump
+- **LED Status Indicators**: Visual feedback for system status
+- **Adjustable Thresholds**: Customize moisture levels for different plant types
+- **Low Power Operation**: Efficient power management
+- **Multiple Zones Support**: Can be extended for multiple irrigation zones
+
+## 🛠️ Components Required
+
+### Hardware
+
+| Component | Quantity | Specifications |
+|-----------|----------|-----------------|
+| Arduino Microcontroller | 1 | Arduino Uno, Mega, or Nano |
+| Soil Moisture Sensor | 1-N | Capacitive or resistive type |
+| Water Pump | 1-N | 5V/12V DC submersible pump |
+| Relay Module | 1-N | 1-channel or multi-channel relay |
+| Power Supply | 1 | 5V/12V DC adapter |
+| Jumper Wires | As needed | Male-to-male, Male-to-female |
+| Breadboard | 1 | Standard 830-point breadboard |
+| LED Indicators | 2-3 | 5mm Red/Green LEDs |
+| Resistors | 2-3 | 220Ω for LEDs |
+| Push Button | 1 | For manual control (optional) |
+| Water Pipe/Tubing | As needed | 6-12mm diameter |
+
+### Software
+
+- Arduino IDE (version 1.8.0 or higher)
+- USB Cable (for programming Arduino)
+
+## 🔌 Circuit Diagram
